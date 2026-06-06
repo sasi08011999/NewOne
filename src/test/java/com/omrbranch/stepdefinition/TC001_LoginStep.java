@@ -31,6 +31,9 @@ public class TC001_LoginStep extends BaseClass {
 		addBasicAuth(getPropertyFilevalue("username"), getPropertyFilevalue("password"));
 
 	}
+	public void sasi() {
+		
+	}
 
 	@When("User sends {string} request to the login endpoint")
 	public void user_sends_request_to_the_login_endpoint(String type) {
